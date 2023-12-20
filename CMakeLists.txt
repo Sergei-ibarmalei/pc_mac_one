@@ -4,6 +4,6 @@ set(PROJECT_NAME pc_mac_one)
 
 project(${PROJECT_NAME})
 
-add_executable(${PROJECT_NAME} scr/engine.cpp main.cpp)
+add_executable(${PROJECT_NAME} src/engine.cpp src/main.cpp)
 
 
